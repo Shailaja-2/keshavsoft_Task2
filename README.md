@@ -76,5 +76,3 @@ About 9 hours over 2 days:
 **Solution:** Read the Vite docs carefully and used absolute paths (`/assets/`) instead of relative paths.
 
 **Key Takeaway:** Templates are way better than copying code. This is how real projects are structured.
-
-![TechFlow Screenshot](https://raw.githubusercontent.com/Shailaja-2/keshavsoft_Task2/main/src/assets/images/techFlow.png)
