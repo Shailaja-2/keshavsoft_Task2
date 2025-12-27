@@ -1,5 +1,5 @@
 # TechFlow - Task 2
- 
+
 A modern website built with Nunjucks templating and Vite bundler to eliminate code repetition from Task 1.
 
 ## 🛠️ Technology Stack
@@ -15,6 +15,7 @@ A modern website built with Nunjucks templating and Vite bundler to eliminate co
 **Vite** - Super fast development with instant hot reload. Much simpler to set up than Webpack or Gulp.
 
 # 📁 Project Structure
+
 ```
 techflow-task2/
 ├── src/
@@ -34,31 +35,35 @@ techflow-task2/
 # 🚀 Quick Start
 
 **Install dependencies:**
+
 ```bash
 npm install
 ```
 
 **Run development server:**
+
 ```bash
 npm run dev
 ```
+
 Opens at http://localhost:5173
 
 # 🎯 What Changed from Task 1?
 
-| Task 1                    | Task 2 
-|---------------------------|---------------------
-| Navigation copied 3 times | Written once 
-| Footer copied 3 times     | Written once 
-| CSS inline in HTML        | External CSS file 
-| No build process          | Automated with Vite 
-| Manual browser refresh    | Hot reload 
+| Task 1                    | Task 2              |
+| ------------------------- | ------------------- |
+| Navigation copied 3 times | Written once        |
+| Footer copied 3 times     | Written once        |
+| CSS inline in HTML        | External CSS file   |
+| No build process          | Automated with Vite |
+| Manual browser refresh    | Hot reload          |
 
 **Result:** Much easier to maintain and update!
 
 # ⏱️ Time Taken
 
 About 9 hours over 2 days:
+
 - Setup & learning: 2 hours
 - Template conversion: 5 hours
 - Testing & fixes: 1.5 hours
@@ -71,3 +76,5 @@ About 9 hours over 2 days:
 **Solution:** Read the Vite docs carefully and used absolute paths (`/assets/`) instead of relative paths.
 
 **Key Takeaway:** Templates are way better than copying code. This is how real projects are structured.
+
+[TechFlow ScreenShot](src/assets/images/techFlow.png)
