@@ -77,4 +77,4 @@ About 9 hours over 2 days:
 
 **Key Takeaway:** Templates are way better than copying code. This is how real projects are structured.
 
-[TechFlow ScreenShot](src/assets/images/techFlow.png)
+![TechFlow ScreenShot](src/assets/images/techFlow.png)
