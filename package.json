@@ -1,0 +1,23 @@
+{
+  "name": "keshavsoft_task2",
+  "version": "1.0.0",
+  "description": "TechFlow website rebuilt with Nunjucks templating and Vite bundler",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "bootstrap",
+    "nunjucks",
+    "vite",
+    "web-development"
+  ],
+  "author": "Shailaja",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.3.0",
+    "vite-plugin-nunjucks": "^0.2.0"
+  }
+}

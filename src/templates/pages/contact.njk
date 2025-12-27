@@ -1,0 +1,117 @@
+<section class="page-header-contact"></section>
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 text-center border-0 shadow-sm p-4">
+                    <div class="bg-primary text-white rounded-circle mx-auto d-flex align-items-center justify-content-center mb-3" style="width:70px;height:70px;">
+                        <i class="bi bi-envelope-fill fs-3"></i>
+                    </div>
+                    <h5 class="fw-bold">Email Us</h5>
+                    <p class="text-muted mb-1">{{ email }}</p>
+                    <p class="text-muted mb-0">support@techflow.com</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 text-center border-0 shadow-sm p-4">
+                    <div class="bg-success text-white rounded-circle mx-auto d-flex align-items-center justify-content-center mb-3" style="width:70px;height:70px;">
+                        <i class="bi bi-telephone-fill fs-3"></i>
+                    </div>
+                    <h5 class="fw-bold">Call Us</h5>
+                    <p class="text-muted mb-1">{{ phone }}</p>
+                    <p class="text-muted mb-0">Mon – Fri, 9AM – 6PM IST</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 text-center border-0 shadow-sm p-4">
+                    <div class="bg-warning text-white rounded-circle mx-auto d-flex align-items-center justify-content-center mb-3" style="width:70px;height:70px;">
+                        <i class="bi bi-geo-alt-fill fs-3"></i>
+                    </div>
+                    <h5 class="fw-bold">Visit Us</h5>
+                    <p class="text-muted mb-1">123 Tech Street</p>
+                    <p class="text-muted mb-0">Hyderabad, {{ location }} – 505077</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body p-4 p-md-5">
+                        <h3 class="fw-bold mb-4">Send us a message</h3>
+
+                        <form class="needs-validation" novalidate id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                                <div class="invalid-feedback">Please enter your name</div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                                <div class="invalid-feedback">Please enter a valid email</div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" required>
+                                <div class="invalid-feedback">Subject is required</div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                                <div class="invalid-feedback">Please enter your message</div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100 py-2">
+                                <i class="bi bi-send-fill me-2"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="mb-4">
+                    <h3 class="fw-bold mb-3">Why Contact Us?</h3>
+                    <p class="text-muted mb-3">We're here to help you with any questions about our services. Whether you need a new website, want to discuss a project, or just have some questions, we're ready to chat.</p>
+                    <p class="text-muted mb-3">Our team typically responds within 24 hours during business days. For urgent matters, give us a call directly.</p>
+
+                    <div class="mt-4 p-4 bg-white rounded shadow-sm">
+                        <h5 class="fw-bold mb-3">Business Hours</h5>
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="text-muted">Monday - Friday</span>
+                            <span class="fw-bold">9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="text-muted">Saturday</span>
+                            <span class="fw-bold">10:00 AM - 2:00 PM</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span class="text-muted">Sunday</span>
+                            <span class="fw-bold">Closed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <h3 class="fw-bold mb-4 text-center">Find Us on the Map</h3>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119158.123456789!2d79.208824!3d17.123184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3350db9429ed43%3A0x63ef7ba741594059!2sTelangana%2C%20India!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</section>
