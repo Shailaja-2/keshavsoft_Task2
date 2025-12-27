@@ -62,7 +62,7 @@ Opens at http://localhost:5173
 
 # ⏱️ Time Taken
 
-About 9 hours over 2 days:
+About 9 hours:
 
 - Setup & learning: 2 hours
 - Template conversion: 5 hours
