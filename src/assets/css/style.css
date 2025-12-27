@@ -103,7 +103,7 @@ footer a:hover {
 
 /* Page Headers */
 .page-header-about {
-    background: url('/src/assets/images/About_img.png') center/cover no-repeat;
+    background: url('/assets/images/About_img.png') center/cover no-repeat;
     min-height: 650px;
 }
 
