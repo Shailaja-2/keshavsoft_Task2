@@ -2,6 +2,9 @@
 
 A modern website built with Nunjucks templating and Vite bundler to eliminate code repetition from Task 1.
 
+
+![Imaga](https://github.com/Shailaja-2/keshavsoft_Task2/blob/a4bed1b65335d131258be6bbab79b86f707718ca/task2.png)
+
 ## 🛠️ Technology Stack
 
 **Templating Engine:** Nunjucks  
